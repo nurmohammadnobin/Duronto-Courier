@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Duronto Courier - Fast, Safe & Reliable Doorstep Delivery across Bangladesh. Same-day delivery, COD, nationwide shipping, and corporate merchant programs." />
+  <title>Duronto Courier — Fast, Safe & Reliable Doorstep Delivery</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Duronto Courier Home">
+        <svg class="logo-icon" width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28">
+          <image href="logo.png" xlink:href="logo.png" width="24" height="24" />
+        </svg>
+        <span class="logo-text">Duronto<strong>Courier</strong></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="booking.html" class="nav-link">Booking</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+          <li><a href="tracking.html" class="nav-link">Tracking</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+8801334925668" class="btn btn-ghost btn-sm" aria-label="Call us">Call</a>
+        <a href="https://wa.me/8801334925668" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge">No.1 Courier Delivery</span>
+        <h1 class="hero-title">Service &amp; Reliable Doorstep Delivery in <br/>Bangladesh</h1>
+        <p class="hero-subtitle">Duronto Courier is the fastest courier service in Bangladesh that ensures safe delivery of your product right on time.</p>
+        <div class="hero-cta">
+          <a href="booking.html" class="btn btn-accent btn-lg">Book a Parcel</a>
+          <a href="services.html" class="btn btn-outline btn-lg">Explore Services</a>
+        </div>
+      </div>
+
+      <div class="hero-track-card">
+        <h3 class="track-card-title">Track Your Parcel</h3>
+        <p class="track-card-text">Enter your tracking ID to see live status updates.</p>
+        <form id="quickTrackForm" class="track-form" novalidate>
+          <div class="input-group">
+            <svg class="input-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22">
+  <image href="logo.png" xlink:href="logo.png" width="24" height="24" />
+</svg>
+            <input type="text" id="quickTrackId" placeholder="e.g. EXP1234" autocomplete="off" aria-label="Tracking ID" />
+          </div>
+          <button type="submit" class="btn btn-accent btn-block">Track Now</button>
+        </form>
+        <p class="track-hint">Try sample ID: <strong>EXP101</strong></p>
+      </div>
+    </div>
+    <div class="hero-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,32L48,37.3C96,43,192,53,288,53.3C384,53,480,43,576,42.7C672,43,768,53,864,53.3C960,53,1056,43,1152,37.3C1248,32,1344,32,1392,32L1440,32L1440,80L0,80Z" fill="#F8FAFC"/></svg>
+    </div>
+  </section>
+
+  <!-- ===== Stats Bar ===== -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">120K+</span>
+        <span class="stat-label">Parcels Delivered</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">64</span>
+        <span class="stat-label">Districts Covered</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">99.2%</span>
+        <span class="stat-label">On-Time Rate</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">24/7</span>
+        <span class="stat-label">Customer Support</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Features ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Why Choose Us</span>
+        <h2 class="section-title">Delivery Solutions Built for Speed</h2>
+        <p class="section-desc">Whether you're an individual sending a gift or a merchant shipping hundreds of orders daily, we've got you covered.</p>
+      </div>
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M13 3L4 14H12L11 21L20 10H12L13 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="feature-title">Same-Day Delivery</h3>
+          <p class="feature-text">Get your parcels delivered within a day inside Dhaka, Kushtia, Rajshahi, Pabna, Jashore and Faridpur city areas with our priority courier network.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><rect x="2" y="6" width="20" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M2 10H22" stroke="currentColor" stroke-width="2"/><path d="M6 15H10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="feature-title">Cash on Delivery (COD)</h3>
+          <p class="feature-text">Collect payments at the doorstep and receive next-day payouts. Perfect for e-commerce merchants and online sellers.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M2 12H22M12 2C14.5 4.5 16 8 16 12C16 16 14.5 19.5 12 22C9.5 19.5 8 16 8 12C8 8 9.5 4.5 12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="feature-title">Nationwide Shipping</h3>
+          <p class="feature-text">We deliver to all 64 districts of Bangladesh — from hill tracts to coastal towns, no location is out of reach.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M3 21V8L12 3L21 8V21" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M3 21H21M9 21V13H15V21" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="feature-title">Corporate Merchant Program</h3>
+          <p class="feature-text">Volume discounts, dedicated account managers, API integration, and free daily pickups for high-volume shippers.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<!-- ===== Coverage ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Coverage Areas</span>
+        <h2 class="section-title">Delivering Across All 64 Districts</h2>
+        <p class="section-desc">Our hub-and-spoke network connects every major city, upazila, and remote corner of Bangladesh.</p>
+      </div>
+      <div class="coverage-list">
+        <div class="coverage-region">
+          <h3 class="coverage-region-title">Dhaka Division</h3>
+          <div class="coverage-tags">
+            <span>Dhaka</span><span>Faridpur</span><span>Gazipur</span><span>Gopalganj</span><span>Kishoreganj</span><span>Madaripur</span><span>Manikganj</span><span>Munshiganj</span><span>Narayanganj</span><span>Narsingdi</span><span>Rajbari</span><span>Shariatpur</span><span>Tangail</span>
+          </div>
+        </div>
+        <div class="coverage-region">
+          <h3 class="coverage-region-title">Chittagong Division</h3>
+          <div class="coverage-tags">
+            <span>Bandarban</span><span>Brahmanbaria</span><span>Chandpur</span><span>Chittagong</span><span>Comilla</span><span>Cox's Bazar</span><span>Feni</span><span>Khagrachari</span><span>Lakshmipur</span><span>Noakhali</span><span>Rangamati</span>
+          </div>
+        </div>
+        <div class="coverage-region">
+          <h3 class="coverage-region-title">Rajshahi Division</h3>
+          <div class="coverage-tags">
+            <span>Bogra</span><span>Joypurhat</span><span>Naogaon</span><span>Natore</span><span>Chapainawabganj</span><span>Pabna</span><span>Rajshahi</span><span>Sirajganj</span>
+          </div>
+        </div>
+        <div class="coverage-region">
+          <h3 class="coverage-region-title">Khulna Division</h3>
+          <div class="coverage-tags">
+            <span>Bagerhat</span><span>Chuadanga</span><span>Jessore</span><span>Jhenaidah</span><span>Khulna</span><span>Kushtia</span><span>Magura</span><span>Meherpur</span><span>Narail</span><span>Satkhira</span>
+          </div>
+        </div>
+        <div class="coverage-region">
+          <h3 class="coverage-region-title">Barishal Division</h3>
+          <div class="coverage-tags">
+            <span>Barguna</span><span>Barishal</span><span>Bhola</span><span>Jhalokati</span><span>Patuakhali</span><span>Pirojpur</span>
+          </div>
+        </div>
+        <div class="coverage-region">
+          <h3 class="coverage-region-title">Sylhet Division</h3>
+          <div class="coverage-tags">
+            <span>Habiganj</span><span>Moulvibazar</span><span>Sunamganj</span><span>Sylhet</span>
+          </div>
+        </div>
+        <div class="coverage-region">
+          <h3 class="coverage-region-title">Rangpur Division</h3>
+          <div class="coverage-tags">
+            <span>Dinajpur</span><span>Gaibandha</span><span>Kurigram</span><span>Lalmonirhat</span><span>Nilphamari</span><span>Panchagarh</span><span>Rangpur</span><span>Thakurgaon</span>
+          </div>
+        </div>
+        <div class="coverage-region">
+          <h3 class="coverage-region-title">Mymensingh Division</h3>
+          <div class="coverage-tags">
+            <span>Jamalpur</span><span>Mymensingh</span><span>Netrokona</span><span>Sherpur</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Customer Reviews</span>
+        <h2 class="section-title">Trusted by Thousands</h2>
+        <p class="section-desc">Real stories from individuals and businesses who rely on Duronto Courier every day.</p>
+      </div>
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="testimonial-text">"I run an online clothing boutique and Duronto Courier handles all my COD deliveries. Next-day payouts have transformed my cash flow. Absolutely recommended!"</p>
+          <div class="testimonial-author">
+  <div class="author-avatar" style="background:#FF5722;">
+    <img src="Nusrat.png" alt="Nusrat Jahan">
+  </div>
+  <div>
+    <strong>Nusrat Jahan</strong>
+    <span>Owner, Trendy Wear BD</span>
+  </div>
+</div>
+        </article>
+        <article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="testimonial-text">"Sent important legal documents from Dhaka to Chittagong and they arrived in just 24 hours. The tracking system kept me updated the entire way. Fantastic service!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#0F172A;">
+			<img src="Rakib.png" alt="Rakib Hasan">
+			</div>
+            <div><strong>Rakib Hasan</strong><span>Corporate Client</span></div>
+          </div>
+        </article>
+        <article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="testimonial-text">"As a small business owner in Sylhet, I was worried about shipping costs. Duronto Courier's pricing is transparent and affordable. The free pickup service saves me so much time."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#25D366;">
+			<img src="Sadia.png" alt="Sadia Islam">
+			</div>
+            <div><strong>Sadia Islam</strong><span>Founder, Sylhet Crafts</span></div>
+          </div>
+        </article>
+		<article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="testimonial-text">"I was able to send my veterinary pharmacy medicine from Kushtia to Dhaka within 24 hours. Duronto courier's service is comparatively much better."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#25D366;">
+			<img src="Nobin.png" alt="Nur Mohammad Nobin">
+			</div>
+            <div><strong>Nur Mohammad Nobin</strong><span>Worker, Nobin Animal Healthcare</span></div>
+          </div>
+        </article>
+		<article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="testimonial-text">"I was able to send my veterinary pharmacy medicine from Kushtia to Dhaka within 24 hours. Duronto courier's service is comparatively much better."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#25D366;">
+			<img src="Aoulad.png" alt="Aoulad">
+			</div>
+            <div><strong>Moħẫḿḿẫȡ Aouĺẫȡ Hoššẫiň</strong><span>Worker, Duronto Internet</span></div>
+          </div>
+        </article>
+		<article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="testimonial-text">"I was able to send UTP & Coaxial cable from Kushtia to Khulna within 24 hours. Duronto courier's service is comparatively much better."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#25D366;">
+			<img src= "Shaminur.png" alt="Shaminur" >
+			</div>
+            <div><strong>Md Shaminur</strong><span>Founder, ARB Cable Network</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA Banner ===== -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div>
+        <h2 class="cta-title">Ready to Send Your Parcel?</h2>
+        <p class="cta-text">Book in under 2 minutes and get instant confirmation via WhatsApp.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="booking.html" class="btn btn-accent btn-lg">Book Now</a>
+        <a href="https://wa.me/8801334925668" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="index.html" class="logo logo-light">
+          <svg class="logo-icon" width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28">
+            <image href="logo.png" xlink:href="logo.png" width="24" height="24" />
+          </svg>
+          <span class="logo-text">Duronto<strong>Courier</strong></span>
+        </a>
+        <p class="footer-desc">Fast, safe, and reliable doorstep delivery across all 64 districts of Bangladesh. Powered by a smart logistics network and a passion for service.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="booking.html">Book a Parcel</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="tracking.html">Track Parcel</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Coverage Zones</h4>
+        <ul id="districtList">
+  <!-- Dhaka Division -->
+  <li>Dhaka</li>
+  <li>Faridpur</li>
+  <li>Gazipur</li>
+  <li>Gopalganj</li>
+  <li>Kishoreganj</li>
+  <li class="more-item" style="display: none;">Madaripur</li>
+  <li class="more-item" style="display: none;">Manikganj</li>
+  <li class="more-item" style="display: none;">Munshiganj</li>
+  <li class="more-item" style="display: none;">Narayanganj</li>
+  <li class="more-item" style="display: none;">Narsingdi</li>
+  <li class="more-item" style="display: none;">Rajbari</li>
+  <li class="more-item" style="display: none;">Shariatpur</li>
+  <li class="more-item" style="display: none;">Tangail</li>
+
+  <!-- Chittagong Division -->
+  <li class="more-item" style="display: none;">Bandarban</li>
+  <li class="more-item" style="display: none;">Brahmanbaria</li>
+  <li class="more-item" style="display: none;">Chandpur</li>
+  <li class="more-item" style="display: none;">Chittagong</li>
+  <li class="more-item" style="display: none;">Comilla</li>
+  <li class="more-item" style="display: none;">Cox's Bazar</li>
+  <li class="more-item" style="display: none;">Feni</li>
+  <li class="more-item" style="display: none;">Khagrachari</li>
+  <li class="more-item" style="display: none;">Lakshmipur</li>
+  <li class="more-item" style="display: none;">Noakhali</li>
+  <li class="more-item" style="display: none;">Rangamati</li>
+
+  <!-- Rajshahi Division -->
+  <li class="more-item" style="display: none;">Bogra</li>
+  <li class="more-item" style="display: none;">Joypurhat</li>
+  <li class="more-item" style="display: none;">Naogaon</li>
+  <li class="more-item" style="display: none;">Natore</li>
+  <li class="more-item" style="display: none;">Chapainawabganj</li>
+  <li class="more-item" style="display: none;">Pabna</li>
+  <li class="more-item" style="display: none;">Rajshahi</li>
+  <li class="more-item" style="display: none;">Sirajganj</li>
+
+  <!-- Khulna Division -->
+  <li class="more-item" style="display: none;">Bagerhat</li>
+  <li class="more-item" style="display: none;">Chuadanga</li>
+  <li class="more-item" style="display: none;">Jessore</li>
+  <li class="more-item" style="display: none;">Jhenaidah</li>
+  <li class="more-item" style="display: none;">Khulna</li>
+  <li class="more-item" style="display: none;">Kushtia</li>
+  <li class="more-item" style="display: none;">Magura</li>
+  <li class="more-item" style="display: none;">Meherpur</li>
+  <li class="more-item" style="display: none;">Narail</li>
+  <li class="more-item" style="display: none;">Satkhira</li>
+
+  <!-- Barishal Division -->
+  <li class="more-item" style="display: none;">Barguna</li>
+  <li class="more-item" style="display: none;">Barishal</li>
+  <li class="more-item" style="display: none;">Bhola</li>
+  <li class="more-item" style="display: none;">Jhalokati</li>
+  <li class="more-item" style="display: none;">Patuakhali</li>
+  <li class="more-item" style="display: none;">Pirojpur</li>
+
+  <!-- Sylhet Division -->
+  <li class="more-item" style="display: none;">Habiganj</li>
+  <li class="more-item" style="display: none;">Moulvibazar</li>
+  <li class="more-item" style="display: none;">Sunamganj</li>
+  <li class="more-item" style="display: none;">Sylhet</li>
+
+  <!-- Rangpur Division -->
+  <li class="more-item" style="display: none;">Dinajpur</li>
+  <li class="more-item" style="display: none;">Gaibandha</li>
+  <li class="more-item" style="display: none;">Kurigram</li>
+  <li class="more-item" style="display: none;">Lalmonirhat</li>
+  <li class="more-item" style="display: none;">Nilphamari</li>
+  <li class="more-item" style="display: none;">Panchagarh</li>
+  <li class="more-item" style="display: none;">Rangpur</li>
+  <li class="more-item" style="display: none;">Thakurgaon</li>
+
+  <!-- Mymensingh Division -->
+  <li class="more-item" style="display: none;">Jamalpur</li>
+  <li class="more-item" style="display: none;">Mymensingh</li>
+  <li class="more-item" style="display: none;">Netrokona</li>
+  <li class="more-item" style="display: none;">Sherpur</li>
+</ul>
+
+<button id="seeMoreBtn" onclick="toggleNames()" style="color: white; background-color: #333; padding: 6px 12px; border: none; cursor: pointer; border-radius: 4px;">See More</button>
+
+<script>
+  function toggleNames() {
+    const items = document.querySelectorAll('.more-item');
+    const btn = document.getElementById('seeMoreBtn');
+    
+    let isHidden = items[0].style.display === 'none';
+    
+    items.forEach(item => {
+      item.style.display = isHidden ? 'list-item' : 'none';
+    });
+    
+    btn.innerText = isHidden ? 'See Less' : 'See More';
+  }
+</script>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-contact">
+          <li>Allardarga-7042, Daulatpur, Kushtia</li>
+          <li><a href="tel:+8801334925668">+8801334925668</a></li>
+          <li><a href="tel:+8801334925668">+8809639444312</a></li>
+          <li><a href="mailto:support@durontocourier.bd">support@durontocourier.bd</a></li>
+          <li>Sat–Thu: 8:00 AM – 9:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Duronto Courier. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Floating WhatsApp ===== -->
+  <a href="https://wa.me/8801334925668" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <span class="wa-ring"></span>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="30" height="30"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.149-.197.297-.767.967-.94 1.165-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/tracking.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var form = document.getElementById('quickTrackForm');
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          var id = document.getElementById('quickTrackId').value.trim();
+          if (id) {
+            window.location.href = 'tracking.html?id=' + encodeURIComponent(id);
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
